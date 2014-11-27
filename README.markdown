@@ -12,3 +12,5 @@ Add a field to your Channel Field form, whose name is your File field name with 
 	{exp:channel:form channel="site" return="my/form/ENTRY_ID"}
 		<input type="hidden" name="my_file_field_rename" value="{exp:guid:uniqid}">
 	{/exp:channel:form}
+
+CREDIT: Based on a modified copy of an addon by Rob Sanchez: http://github.com/rsanchez/channel_form_file_add_prefix
